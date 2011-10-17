@@ -1,0 +1,15 @@
+application: hueameye
+version: 1
+runtime: python
+api_version: 1
+
+inbound_services:
+- mail
+
+builtins:
+- deferred: on
+
+handlers:
+- url: /_ah/mail/.+
+  script: main.py
+  login: admin

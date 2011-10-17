@@ -1,0 +1,4 @@
+Toy app using Rapleaf APIs. This allows users to query information about their 
+own email address directly. Send an email to test@hueameye.appspotmail.com and 
+you should receive a reply with information from the Rapleaf database for your 
+email address.
